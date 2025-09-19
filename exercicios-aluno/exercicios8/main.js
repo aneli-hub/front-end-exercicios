@@ -11,14 +11,14 @@
 
 // } while (contador < 10);
 // console.log(numeroMaior);
-
+//Escreva um programa em que o usuário insira o peso de 10 pessoas e calcule a média aritmética do peso delas;
 
 
 let somapesos = 0;
-let pesoAtual;
+let pesoAtual = 0;
 
-for (let contador = 0; contador < 10; contador = contador + 1 ) {
-    pesoAtual = prompt("digite seu peso");
+for (let contador = 1; contador < 11; contador = contador + 1 ) {
+    pesoAtual = prompt("insira o peso da pessoa numero" + contador);
     pesoAtual = Number (pesoAtual);
     somapesos = somapesos + pesoAtual;
 
